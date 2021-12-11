@@ -1,0 +1,11 @@
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.exe.config
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.exe
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.pdb
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.AssemblyReference.cache
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.SuggestedBindingRedirects.cache
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Form1.resources
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Properties.Resources.resources
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.GenerateResource.cache
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.CoreCompileInputs.cache
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.exe
+D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.pdb

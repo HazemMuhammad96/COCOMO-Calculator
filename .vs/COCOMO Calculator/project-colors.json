@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bc31f6ef-282a-4bfd-98f8-0984a48a4cc4": {
+      "ProjectGuid": "bc31f6ef-282a-4bfd-98f8-0984a48a4cc4",
+      "DisplayName": "COCOMO Calculator",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -9,3 +9,67 @@ D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Ca
 D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.CoreCompileInputs.cache
 D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.exe
 D:\FCIS\5th Semester\Software Metrics\Project\COCOMO\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.pdb
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.exe.config
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.exe
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.pdb
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csprojAssemblyReference.cache
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Form1.resources
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Properties.Resources.resources
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.GenerateResource.cache
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.CoreCompileInputs.cache
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.exe
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.pdb
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Form2.resources
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\bin\Debug\CustomAComboBox.dll
+F:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.CopyComplete
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.exe.config
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.exe
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.pdb
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\bin\Debug\CustomAComboBox.dll
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.AssemblyReference.cache
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.SuggestedBindingRedirects.cache
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.form1.resources
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Form2.resources
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Properties.Resources.resources
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.GenerateResource.cache
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.CoreCompileInputs.cache
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.CopyComplete
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.exe
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.pdb
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+E:\College\Project\Cocomoco\COCOMO-Calculator\COCOMO Calculator\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.exe.config
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.exe
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.pdb
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\bin\Debug\CustomAComboBox.dll
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.AssemblyReference.cache
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.SuggestedBindingRedirects.cache
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.form1.resources
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Form2.resources
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Properties.Resources.resources
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Start.resources
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Step1.resources
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.GenerateResource.cache
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.CoreCompileInputs.cache
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.CopyComplete
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.exe
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.pdb
+E:\College\Project\Cocomoco - Copy\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Step2.resources
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.exe.config
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.exe
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\bin\Debug\COCOMO Calculator.pdb
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.AssemblyReference.cache
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.SuggestedBindingRedirects.cache
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Properties.Resources.resources
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Start.resources
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Step1.resources
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Step2.resources
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.GenerateResource.cache
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.CoreCompileInputs.cache
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO-Calculator.csproj.CopyComplete
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.exe
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO Calculator.pdb
+E:\College\Project\Cocomoco 2\COCOMO-Calculator\COCOMO Calculator\obj\Debug\COCOMO_Calculator.Result.resources

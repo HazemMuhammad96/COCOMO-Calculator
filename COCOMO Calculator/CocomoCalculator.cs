@@ -29,6 +29,7 @@ namespace COCOMO_Calculator
         USE_OF_SW_TOOLS,
         REQUIRED_DEV_SCHEDULE,
     }
+
     internal class CocomoCalculator
     {
         private float kloc, eI, tDev, eAF, eFinal;
@@ -39,6 +40,7 @@ namespace COCOMO_Calculator
             {51f, "semidetached" },
             {301f,"embedded" },
         };
+        
         private Dictionary<string, Dictionary<char, float>> modelValue = new Dictionary<string, Dictionary<char, float>>()
         {
             {
@@ -73,6 +75,7 @@ namespace COCOMO_Calculator
             },
 
         };
+
 
         private Dictionary<CostDrivers, Dictionary<string, float>> costDriverValues = new Dictionary<CostDrivers, Dictionary<string, float>>()
         {
@@ -244,6 +247,7 @@ namespace COCOMO_Calculator
 
         };
 
+
         private Dictionary<char, float> usedModelValues = new Dictionary<char, float>();
 
         public CocomoCalculator(float kloc)
@@ -289,6 +293,13 @@ namespace COCOMO_Calculator
             return cost;
         }
 
+        public void overrideUsedModel(string model)
+        {
+            if (model == "auto") return;
+            else
+                usedModelValues = modelValue[model];
+        }
+
         public float calculateEFinal()
         {
             return eI * eAF;
@@ -305,5 +316,31 @@ namespace COCOMO_Calculator
             eAF = calculateEAF(ratings);
             eFinal = calculateEFinal();
         }
+
+        public void SetEI(float eI)
+        {
+            this.eI = eI;
+        }
+
+        public float GetEI() {
+            return eI;
+        }
+
+        public float GetTDEV()
+        {
+            return tDev;
+        }
+
+        public float GetEAF()
+        {
+            return eAF;
+        }
+
+        public float GetEFinal()
+        {
+            return eFinal;
+        }
+
+
     }
 }

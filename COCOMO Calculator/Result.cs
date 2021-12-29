@@ -21,13 +21,13 @@ namespace COCOMO_Calculator
         private void Result_Load(object sender, EventArgs e)
         {
             EffortResult.Text = Step1.EI;
-            TDEVResult.Text = Step1.TDEV;
+            TDEVResult.Text = Step2.TDEV;
             KOLC_Value.Text = Step1.KOLC;
             ActualEffortResult.Text = Step2.AEffort;
 
             float ei = float.Parse(Step1.EI);
-            float tdev = float.Parse(Step1.TDEV);
             float aeffort = float.Parse(Step2.AEffort);
+            float tdev = float.Parse(Step2.TDEV);
 
             EffortResultRounded.Text = Math.Round(ei) + "";
             TDEVResultRounded.Text = Math.Round(tdev) + "";
@@ -35,5 +35,7 @@ namespace COCOMO_Calculator
 
 
         }
+
+
     }
 }

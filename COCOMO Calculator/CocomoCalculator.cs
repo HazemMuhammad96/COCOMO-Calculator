@@ -255,7 +255,6 @@ namespace COCOMO_Calculator
             this.kloc = kloc;
             usedModelValues = getUsedModelValues();
             calculateEI();
-            Debug.WriteLine(tDev);
         }
 
         public Dictionary<char, float> getUsedModelValues()
@@ -278,7 +277,8 @@ namespace COCOMO_Calculator
 
         public float calculateTDev()
         {
-            return (float) (usedModelValues['c'] * Math.Pow(eI,usedModelValues['d']));
+
+            return (float) (usedModelValues['c'] * Math.Pow(eFinal,usedModelValues['d']));
         }
         
         public float calculateEAF(Dictionary<CostDrivers, string> ratings)
@@ -308,13 +308,14 @@ namespace COCOMO_Calculator
         public void initStep1()
         {
             eI = calculateEI();
-            tDev = calculateTDev();
+            
         }
 
         public void initStep2(Dictionary<CostDrivers, string> ratings)
         {
             eAF = calculateEAF(ratings);
             eFinal = calculateEFinal();
+            tDev = calculateTDev();
         }
 
         public void SetEI(float eI)

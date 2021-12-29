@@ -30,14 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Step1));
-            this.TdevLabel = new System.Windows.Forms.Label();
             this.EffortLabel = new System.Windows.Forms.Label();
             this.KolcLabel = new System.Windows.Forms.Label();
             this.EffortResult = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
-            this.TDEVResult = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.NextStep = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.EffortCalculate = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.TDEV_Calculate = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.KOLC_Value = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.ProductAttributeslabel = new System.Windows.Forms.Label();
             this.ProjectType = new ComponentFactory.Krypton.Toolkit.KryptonComboBox();
@@ -45,50 +42,36 @@
             ((System.ComponentModel.ISupportInitialize)(this.ProjectType)).BeginInit();
             this.SuspendLayout();
             // 
-            // TdevLabel
-            // 
-            this.TdevLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TdevLabel.AutoSize = true;
-            this.TdevLabel.Font = new System.Drawing.Font("Poppins", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TdevLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TdevLabel.Location = new System.Drawing.Point(241, 457);
-            this.TdevLabel.Name = "TdevLabel";
-            this.TdevLabel.Size = new System.Drawing.Size(111, 58);
-            this.TdevLabel.TabIndex = 3;
-            this.TdevLabel.Text = "TDEV";
-            // 
             // EffortLabel
             // 
             this.EffortLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.EffortLabel.AutoSize = true;
-            this.EffortLabel.Font = new System.Drawing.Font("Poppins", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EffortLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EffortLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.EffortLabel.Location = new System.Drawing.Point(236, 322);
+            this.EffortLabel.Location = new System.Drawing.Point(230, 406);
             this.EffortLabel.Name = "EffortLabel";
-            this.EffortLabel.Size = new System.Drawing.Size(115, 58);
+            this.EffortLabel.Size = new System.Drawing.Size(101, 38);
             this.EffortLabel.TabIndex = 4;
             this.EffortLabel.Text = "Effort";
             // 
             // KolcLabel
             // 
-            this.KolcLabel.Font = new System.Drawing.Font("Poppins", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KolcLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.KolcLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.KolcLabel.Location = new System.Drawing.Point(331, 107);
+            this.KolcLabel.Location = new System.Drawing.Point(353, 107);
             this.KolcLabel.Name = "KolcLabel";
-            this.KolcLabel.Size = new System.Drawing.Size(379, 60);
+            this.KolcLabel.Size = new System.Drawing.Size(370, 60);
             this.KolcLabel.TabIndex = 5;
-            this.KolcLabel.Text = "Enter The KOLC";
+            this.KolcLabel.Text = "Enter The KLOC";
             // 
             // EffortResult
             // 
             this.EffortResult.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.EffortResult.Location = new System.Drawing.Point(399, 325);
+            this.EffortResult.Location = new System.Drawing.Point(399, 397);
             this.EffortResult.Multiline = true;
             this.EffortResult.Name = "EffortResult";
             this.EffortResult.ReadOnly = true;
@@ -102,32 +85,9 @@
             this.EffortResult.StateCommon.Border.Rounding = 10;
             this.EffortResult.StateCommon.Border.Width = 1;
             this.EffortResult.StateCommon.Content.Color1 = System.Drawing.Color.White;
-            this.EffortResult.StateCommon.Content.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EffortResult.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EffortResult.StateCommon.Content.Padding = new System.Windows.Forms.Padding(10, 4, -1, -1);
             this.EffortResult.TabIndex = 6;
-            // 
-            // TDEVResult
-            // 
-            this.TDEVResult.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TDEVResult.Location = new System.Drawing.Point(399, 461);
-            this.TDEVResult.Multiline = true;
-            this.TDEVResult.Name = "TDEVResult";
-            this.TDEVResult.ReadOnly = true;
-            this.TDEVResult.Size = new System.Drawing.Size(241, 49);
-            this.TDEVResult.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.TDEVResult.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.TDEVResult.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.TDEVResult.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.TDEVResult.StateCommon.Border.Rounding = 10;
-            this.TDEVResult.StateCommon.Border.Width = 1;
-            this.TDEVResult.StateCommon.Content.Color1 = System.Drawing.Color.White;
-            this.TDEVResult.StateCommon.Content.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TDEVResult.StateCommon.Content.Padding = new System.Windows.Forms.Padding(10, 4, -1, -1);
-            this.TDEVResult.TabIndex = 7;
             // 
             // NextStep
             // 
@@ -180,7 +140,7 @@
             this.EffortCalculate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.EffortCalculate.Location = new System.Drawing.Point(696, 325);
+            this.EffortCalculate.Location = new System.Drawing.Point(696, 397);
             this.EffortCalculate.Name = "EffortCalculate";
             this.EffortCalculate.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
             this.EffortCalculate.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
@@ -224,60 +184,15 @@
             this.EffortCalculate.Values.Text = "Calculate";
             this.EffortCalculate.Click += new System.EventHandler(this.EffortCalculate_Click);
             // 
-            // TDEV_Calculate
-            // 
-            this.TDEV_Calculate.Location = new System.Drawing.Point(696, 461);
-            this.TDEV_Calculate.Name = "TDEV_Calculate";
-            this.TDEV_Calculate.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.TDEV_Calculate.Size = new System.Drawing.Size(210, 49);
-            this.TDEV_Calculate.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(203)))), ((int)(((byte)(93)))));
-            this.TDEV_Calculate.StateCommon.Back.ColorAngle = 45F;
-            this.TDEV_Calculate.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.TDEV_Calculate.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.TDEV_Calculate.StateCommon.Border.Rounding = 20;
-            this.TDEV_Calculate.StateCommon.Border.Width = 1;
-            this.TDEV_Calculate.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.TDEV_Calculate.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.TDEV_Calculate.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TDEV_Calculate.StateDisabled.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.StateDisabled.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.StateNormal.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.StateNormal.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(203)))), ((int)(((byte)(93)))));
-            this.TDEV_Calculate.StateNormal.Back.ColorAngle = 45F;
-            this.TDEV_Calculate.StateNormal.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.StateNormal.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(203)))), ((int)(((byte)(93)))));
-            this.TDEV_Calculate.StateNormal.Border.ColorAngle = -45F;
-            this.TDEV_Calculate.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.TDEV_Calculate.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(203)))), ((int)(((byte)(93)))));
-            this.TDEV_Calculate.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
-            this.TDEV_Calculate.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(203)))), ((int)(((byte)(93)))));
-            this.TDEV_Calculate.StateTracking.Back.ColorAngle = 90F;
-            this.TDEV_Calculate.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.TDEV_Calculate.StateTracking.Border.Width = 1;
-            this.TDEV_Calculate.TabIndex = 12;
-            this.TDEV_Calculate.Values.Text = "Calculate";
-            this.TDEV_Calculate.Click += new System.EventHandler(this.TDEV_Calculate_Click);
-            // 
             // KOLC_Value
             // 
             this.KOLC_Value.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.KOLC_Value.Location = new System.Drawing.Point(399, 203);
+            this.KOLC_Value.MinimumSize = new System.Drawing.Size(0, 36);
             this.KOLC_Value.Name = "KOLC_Value";
-            this.KOLC_Value.Size = new System.Drawing.Size(241, 41);
+            this.KOLC_Value.Size = new System.Drawing.Size(241, 36);
             this.KOLC_Value.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.KOLC_Value.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.KOLC_Value.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
@@ -287,7 +202,7 @@
             this.KOLC_Value.StateCommon.Border.Rounding = 10;
             this.KOLC_Value.StateCommon.Border.Width = 1;
             this.KOLC_Value.StateCommon.Content.Color1 = System.Drawing.Color.White;
-            this.KOLC_Value.StateCommon.Content.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KOLC_Value.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.KOLC_Value.StateCommon.Content.Padding = new System.Windows.Forms.Padding(10, 4, -1, -1);
             this.KOLC_Value.TabIndex = 13;
             // 
@@ -295,11 +210,11 @@
             // 
             this.ProductAttributeslabel.AutoSize = true;
             this.ProductAttributeslabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.ProductAttributeslabel.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProductAttributeslabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProductAttributeslabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
             this.ProductAttributeslabel.Location = new System.Drawing.Point(49, 44);
             this.ProductAttributeslabel.Name = "ProductAttributeslabel";
-            this.ProductAttributeslabel.Size = new System.Drawing.Size(121, 30);
+            this.ProductAttributeslabel.Size = new System.Drawing.Size(115, 20);
             this.ProductAttributeslabel.TabIndex = 66;
             this.ProductAttributeslabel.Text = "Project Type";
             // 
@@ -488,7 +403,7 @@
             this.kryptonPalette2.FormStyles.FormMain.StateActive.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonPalette2.FormStyles.FormMain.StateActive.Border.Rounding = 0;
+            this.kryptonPalette2.FormStyles.FormMain.StateActive.Border.Rounding = 8;
             this.kryptonPalette2.FormStyles.FormMain.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.kryptonPalette2.FormStyles.FormMain.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.kryptonPalette2.FormStyles.FormMain.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
@@ -497,7 +412,7 @@
             this.kryptonPalette2.FormStyles.FormMain.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonPalette2.FormStyles.FormMain.StateCommon.Border.Rounding = 0;
+            this.kryptonPalette2.FormStyles.FormMain.StateCommon.Border.Rounding = 8;
             this.kryptonPalette2.FormStyles.FormMain.StateInactive.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.kryptonPalette2.FormStyles.FormMain.StateInactive.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.kryptonPalette2.FormStyles.FormMain.StateInactive.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
@@ -506,7 +421,7 @@
             this.kryptonPalette2.FormStyles.FormMain.StateInactive.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonPalette2.FormStyles.FormMain.StateInactive.Border.Rounding = 0;
+            this.kryptonPalette2.FormStyles.FormMain.StateInactive.Border.Rounding = 8;
             this.kryptonPalette2.HeaderStyles.HeaderForm.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.kryptonPalette2.HeaderStyles.HeaderForm.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.kryptonPalette2.HeaderStyles.HeaderForm.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
@@ -537,16 +452,14 @@
             this.Controls.Add(this.ProjectType);
             this.Controls.Add(this.ProductAttributeslabel);
             this.Controls.Add(this.KOLC_Value);
-            this.Controls.Add(this.TDEV_Calculate);
             this.Controls.Add(this.EffortCalculate);
             this.Controls.Add(this.NextStep);
-            this.Controls.Add(this.TDEVResult);
             this.Controls.Add(this.EffortResult);
-            this.Controls.Add(this.TdevLabel);
             this.Controls.Add(this.EffortLabel);
             this.Controls.Add(this.KolcLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Step1";
             this.Palette = this.kryptonPalette2;
             this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
@@ -560,14 +473,11 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label TdevLabel;
         private System.Windows.Forms.Label EffortLabel;
         private System.Windows.Forms.Label KolcLabel;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox EffortResult;
-        private ComponentFactory.Krypton.Toolkit.KryptonTextBox TDEVResult;
         private ComponentFactory.Krypton.Toolkit.KryptonButton NextStep;
         private ComponentFactory.Krypton.Toolkit.KryptonButton EffortCalculate;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton TDEV_Calculate;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox KOLC_Value;
         private System.Windows.Forms.Label ProductAttributeslabel;
         private ComponentFactory.Krypton.Toolkit.KryptonComboBox ProjectType;

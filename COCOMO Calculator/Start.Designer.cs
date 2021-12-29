@@ -41,6 +41,7 @@
             this.kryptonPalette1.ButtonSpecs.FormClose.Image = global::COCOMO_Calculator.Properties.Resources.mc_red;
             this.kryptonPalette1.ButtonSpecs.FormClose.ImageStates.ImagePressed = global::COCOMO_Calculator.Properties.Resources.sign_error_icon;
             this.kryptonPalette1.ButtonSpecs.FormClose.ImageStates.ImageTracking = global::COCOMO_Calculator.Properties.Resources.sign_error_icon;
+            this.kryptonPalette1.ButtonSpecs.FormMax.Edge = ComponentFactory.Krypton.Toolkit.PaletteRelativeEdgeAlign.Far;
             this.kryptonPalette1.ButtonSpecs.FormMax.Image = global::COCOMO_Calculator.Properties.Resources.mc_yellw;
             this.kryptonPalette1.ButtonSpecs.FormMax.ImageStates.ImagePressed = global::COCOMO_Calculator.Properties.Resources.mc_yellw;
             this.kryptonPalette1.ButtonSpecs.FormMax.ImageStates.ImageTracking = global::COCOMO_Calculator.Properties.Resources.mc_yellw;
@@ -77,7 +78,7 @@
             this.kryptonPalette1.FormStyles.FormMain.StateActive.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonPalette1.FormStyles.FormMain.StateActive.Border.Rounding = 0;
+            this.kryptonPalette1.FormStyles.FormMain.StateActive.Border.Rounding = 8;
             this.kryptonPalette1.FormStyles.FormMain.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.kryptonPalette1.FormStyles.FormMain.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.kryptonPalette1.FormStyles.FormMain.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
@@ -86,7 +87,7 @@
             this.kryptonPalette1.FormStyles.FormMain.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonPalette1.FormStyles.FormMain.StateCommon.Border.Rounding = 0;
+            this.kryptonPalette1.FormStyles.FormMain.StateCommon.Border.Rounding = 8;
             this.kryptonPalette1.FormStyles.FormMain.StateInactive.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.kryptonPalette1.FormStyles.FormMain.StateInactive.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.kryptonPalette1.FormStyles.FormMain.StateInactive.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
@@ -95,7 +96,7 @@
             this.kryptonPalette1.FormStyles.FormMain.StateInactive.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonPalette1.FormStyles.FormMain.StateInactive.Border.Rounding = 0;
+            this.kryptonPalette1.FormStyles.FormMain.StateInactive.Border.Rounding = 8;
             this.kryptonPalette1.HeaderStyles.HeaderForm.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.kryptonPalette1.HeaderStyles.HeaderForm.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.kryptonPalette1.HeaderStyles.HeaderForm.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
@@ -119,12 +120,14 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Poppins", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
             this.label2.Location = new System.Drawing.Point(477, 312);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(209, 50);
+            this.label2.Size = new System.Drawing.Size(213, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "CALCULATOR";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -132,18 +135,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
             this.label1.Location = new System.Drawing.Point(263, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(663, 211);
+            this.label1.Size = new System.Drawing.Size(616, 135);
             this.label1.TabIndex = 5;
             this.label1.Text = "COCOMO";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // StartButton
             // 
-            this.StartButton.Location = new System.Drawing.Point(485, 496);
+            this.StartButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.StartButton.Location = new System.Drawing.Point(490, 496);
             this.StartButton.Name = "StartButton";
             this.StartButton.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
             this.StartButton.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(224)))), ((int)(((byte)(105)))));
@@ -197,7 +202,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Start";
             this.Palette = this.kryptonPalette1;
             this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
